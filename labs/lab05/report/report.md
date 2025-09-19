@@ -111,7 +111,8 @@ systemctl enable vsftpd
 
 # Конфликты юнитов
 
-Установим iptables и проверим статус firewalld и iptables
+Выведим на экран список зависимостей юнита и список юнитов,которые зависят от данного юнита командой systemctl list-dependencies vsftpd --reverse
+
 
 ![Проверка статусов](image/5.png){#fig:005 width=70%}
 
